@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "checkJs": true,
+        "moduleResolution": "node",
+        "module": "es2020",
+        "lib": [
+            "dom",
+            "es6",
+            "ESNext"
+        ],
+        "target": "es2020"
+    }
+}

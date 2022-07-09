@@ -1,0 +1,39 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "node_modules/typescript/bin/tsc",
+    "watch": "node_modules/typescript/bin/tsc -w --preserveWatchOutput",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT-0",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.110.0",
+    "@aws-sdk/client-s3": "^3.110.0",
+    "@aws-sdk/node-http-handler": "^3.110.0",
+    "@aws-sdk/types": "^3.110.0",
+    "@aws-sdk/util-dynamodb": "^3.110.0",
+    "dotenv": "^16.0.1",
+    "fast-csv": "^4.3.6",
+    "help": "^3.0.2",
+    "moment": "^2.29.3",
+    "node-fetch": "^3.2.6",
+    "thread-sleep": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.100",
+    "@types/jest": "^28.1.1",
+    "@types/node": "^17.0.42",
+    "@types/node-fetch": "^2.6.1",
+    "aws-sdk": "^2.1154.0",
+    "jest": "^28.1.1",
+    "source-map-support": "^0.5.21",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
