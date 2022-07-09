@@ -1,5 +1,5 @@
 
-# cdk_fargate_bulkload_dynamo
+# Bulk load CSV file to Amazon DynamoDB using CDK Fargate Task
 
 # Description
 
